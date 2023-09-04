@@ -1,0 +1,127 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#increase-font-size {
+    font-size: 1em;
+  }
+  
+  #decrease-font-size {
+    font-size: 1em;
+  }
+  
+  #content {
+    font-size: 1em;
+  }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para os blocos de imagens */
+.image-blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.image p {
+    margin-top: 10px;
+}
+
+/* Estilos para o vídeo */
+.video-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para a playlist musical */
+.playlist {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para Gif */
+#gif-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  #pause-button {
+    position: absolute;
+    bottom: 20px;
+    left: 60%;
+    transform: translateX(-40%);
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos para as redes sociais no rodapé */
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+/* Estilos para os detalhes de contato no rodapé */
+.contacts {
+    text-align: left;
+}
+
+
